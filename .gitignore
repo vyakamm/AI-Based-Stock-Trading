@@ -1,0 +1,79 @@
+
+# ==========================================
+# Python environments
+# ==========================================
+.venv/
+venv/
+env/
+mon_environnement/
+
+# ==========================================
+# Python caches and compiled files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ==========================================
+# OS / IDE
+# ==========================================
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ==========================================
+# Model artifacts
+# ==========================================
+models/
+*.h5
+*.keras
+*.pb
+*.onnx
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.joblib
+
+# ==========================================
+# Research outputs
+# ==========================================
+variables/
+artifacts/
+checkpoints/
+logs/
+tensorboard/
+mlruns/
+optuna.db
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# R and notebook outputs
+# ==========================================
+.RData
+.Rhistory
+.ipynb_checkpoints/
+
+# ==========================================
+# Secrets and local configuration
+# ==========================================
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+
+.idea/
+*.egg-info/
+.git_backup/

@@ -1,0 +1,38 @@
+{
+  "symbol": "AMZN",
+  "strategy": "lstm",
+  "hyperparameters": {
+    "strategy_name": "lstm",
+    "stop_loss": 0.08475318825935552,
+    "past_history": 48,
+    "stack_depth": 1,
+    "number_units_per_layer": 240,
+    "epochs": 97,
+    "batch_size": 125
+  },
+  "metrics": {
+    "total_return_pct": 67.557,
+    "annualized_return_pct": 95.0471,
+    "volatility_pct": 15.8839,
+    "sharpe_ratio": 4.2622,
+    "sortino_ratio": 7.2084,
+    "max_drawdown": -1032.0498,
+    "max_drawdown_pct": -4.071,
+    "calmar_ratio": 23.3471,
+    "recovery_factor": 9.8189,
+    "win_rate_pct": 72.4138,
+    "profit_factor": 4.0899,
+    "payoff_ratio": 1.558,
+    "best_trade": 1726.6497,
+    "worst_trade": -476.3495,
+    "max_consecutive_wins": 9,
+    "max_consecutive_losses": 2,
+    "avg_trade_duration_days": 3.3966,
+    "positive_months_pct": 88.8889,
+    "risk_of_ruin_pct": 33.482,
+    "var_daily_95": -288.1226,
+    "var_monthly_95": -1320.3435,
+    "n_trades": 117.0
+  },
+  "total_transaction_costs": 40.95000000000009
+}
